@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="images/logo1.png">
+    <meta name="description" content="Saurav Acharya is an aspiring Data Scientist sharing insights and learning from real-world data science projects and case studies.">
+    
+    <!-- ===== This will be help to google search engine to find me  ===== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "image": "images/Hero.png",
+        "url": "https://acharyasaurav.com.np",
+        "jobTitle": "Data Scientist",
+        "name": "Saurav Acharya",
+        "sameAs": [
+            "https://www.linkedin.com/in/saurav-acharya-086a91302",
+            "https://github.com/LordArcus",
+            "https://www.instagram.com/acharyasaurav2700",
+            "https://www.facebook.com/profile.php?id=100074606149374"
+        ]
+    }
+    </script>
+    
+    <title>Learn Basics of Data Analysis | Key terms | Ways to Analysis With Saurav</title>
+    <link rel="stylesheet" href="../style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body class="blue_body">
+    <img src="https://i.pinimg.com/originals/d9/ab/d5/d9abd52c1e8c05bb14184b8a2815025d.gif" class="dragon" alt="Dragon">
+    <section class="" id="home">
+        <nav>
+            <a href="../"><img src="../images/Saurav_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-backspace click" id="backspace" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="listsytle-none"><a href="../">HOME</a></li>
+                    <li class="listsytle-none"><a href="../#about">ABOUT</a></li>
+                    <li class="listsytle-none"><a href="../#blog">BLOG</a></li>
+                    <li class="listsytle-none"><a href="../#contact">CONTACT</a></li>
+                    <li class="listsytle-none"><a href="../case_study">CASE STUDY</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list click" id="list" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <!-- =========== Section for body/ About the tools used in Analysis ============ -->
+    <section class="analysis_tools">
+        <div class="analysis_title">
+            <h1>A Beginner's Guide to Data Analysis</h1>
+        </div>
+        <div class="analysis_text">
+            <p class="analysis_text_pg">
+                Before diving into the world of data analysis tools, it's important to first build a solid understanding of data science. 
+                Knowing the basics of data science will not only help you choose the right tools 
+                but also ensure you use them effectively to uncover meaningful insights.
+            </p>
+        </div>
+
+
+        <div class="analysis_heading">
+            <h3>What is data Science?</h3>
+        </div>
+        <div class="analysis_text">
+            <p class="analysis_text_pg">
+                Data science is the field of study that focuses on extracting valuable insights from data, managing data effectively, 
+                and ensuring its protection. It combines a wide range of techniques from statistics, programming, machine learning, 
+                and data analysis to uncover patterns, trends, and relationships hidden within large sets of raw data. 
+                This allows organizations and individuals to make informed decisions based on data-driven insights.
+            </p>
+            <p class="analysis_text_pg">
+                We all know science as the study of understanding the mechanisms behind various processes to manipulate and control them.
+                But what about data? How do we understand, analyze, and manipulate data to gain useful knowledge?
+            </p>
+            <p class="analysis_text_pg">
+                Imagine you are a gamer, enjoy shopping, or love traveling. Every time you engage in these activities, you generate a wealth of data. 
+                Whether it's tracking gaming scores, analyzing your shopping habits, or recording travel destinations, you're producing information that can be studied.
+            </p>
+            <p class="analysis_text_pg">
+                While some of this data can be useful, much of it may seem insignificant or irrelevant.
+                The challenge is to identify meaningful patterns within this vast amount of information. This is where data science comes into play.
+            </p>
+            <h4 class="font-size-22px">So, how do we find these valuable insights in a sea of data?</h4>
+            <p class="analysis_text_pg">
+                The process involves using statistical tools to analyze the data, programming languages to manipulate it,
+                and visualization techniques to help us better understand the trends and patterns. With the right tools, 
+                data scientists can transform raw data into actionable knowledge.
+            </p>
+            <p class="analysis_text_pg">
+                Additionally, data science isn't just about finding patterns. It's also about managing the data properly to ensure its accuracy and efficiency, as well as ensuring its protection. 
+                This includes ensuring that data is stored securely, handled in compliance with privacy regulations, and protected from unauthorized access or misuse.
+            </p>
+            <p class="analysis_text_pg">
+                In summary, data science is the interdisciplinary field that involves extracting, managing, and protecting valuable information from data. 
+                It helps organizations and individuals use data to make more informed decisions, improve processes, and drive innovation.
+            </p>
+        </div>
+
+        <div class="analysis_heading">
+            <h3>Statistical Tools in Data Analysis</h3>
+        </div>
+        <div class="analysis_text">
+            <p class="analysis_text_pg">
+                When working with data, finding patterns and understanding its behavior is crucial. To achieve this, statistical tools play a vital role. 
+                These tools help us study the situation, mechanism, and orientation of data, making them indispensable for data analysis.
+            </p>
+            <p class="analysis_text_pg">
+                Here's a list of the most common statistical tools and how they can help in analyzing data:
+            </p>
+            <div class="list_analysis_tools">
+                <ol>
+                    <li>
+                        <h4>Mean:</h4>
+                        <ol>
+                            <li><p>Used to calculate the arithmetic average of a dataset.</p></li>
+                            <li><p>Helpful for summarizing overall data trends.</p></li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact display-flex-wrap__element1" id="contact">
+        <footer class="contact__container">
+            <h3>If you want to reach out.</h3>
+            <div class="email">
+                <h4 class="title">Send me email on:</h4>
+                <span class="email__discrip">
+                    <i class="bi bi-envelope-at-fill icon-nounderline-white-color"></i>
+                    <p>lordarcus11@gmail.com</p>
+                </span> 
+            </div>
+            <div class="other-social-media-accounts">
+                <h4 class="title">Or find me on:</h4>
+                <ul class="flex-gap">
+                    <li class="listsytle-none "><a href = "https://www.facebook.com/profile.php?id=100074606149374"><i class="bi bi-facebook icon-nounderline-white-color medium-size"></i></a></li>
+                    <li class="listsytle-none "><a href = "https://github.com/LordArcus"><i icon-nounderline-white-color class="bi bi-github icon-nounderline-white-color medium-size"></i></a></li>
+                    <li class="listsytle-none "><a href = "https://www.instagram.com/acharyasaurav2700?igsh=MXY2empwNWM5dXJ0eQ%3D%3D"><i class="bi bi-instagram icon-nounderline-white-color medium-size"></i></a></li>
+                    <li class="listsytle-none "><a href = "https://www.linkedin.com/in/saurav-acharya-086a91302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin icon-nounderline-white-color medium-size"></i></a></li>
+                </ul>  
+            </div>
+            <div class="copyrights">
+                <p class="copyrights__text">&#169; 2025 Saurav Acharya. </p>
+            </div>
+        </footer>
+    </section>
+    <script src="../script.js"></script>
+</body>
+</html>
