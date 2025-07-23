@@ -350,13 +350,33 @@
   /* CSS of case study page */
 
   .center-box {
-    margin: 5%;
+    margin: 5% 20%;
     max-width: 100%;
     word-wrap: break-word;
   }
 
+  .center-box__paragraph{
+    font-size: 20px;
+    line-height: 2rem;
+    word-spacing: 0.1rem;
+  }
+
+  .center-box__title {
+    font-size: 60px;
+    margin: 40px;
+  }
+
+  .center-box__heading {
+    font-size : 40px;
+    margin: 200px 0 50px 0;
+  }
+
   .text_align_center {
     text-align: center;
+  }
+
+  .output-box__margin {
+    margin: 50px;
   }
 
   .function-color-blue {
@@ -534,6 +554,23 @@
       height: 60px;
       width: 60px;
     }
+
+    .center-box {
+    margin: 4%;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+
+  .center-box__title {
+    font-size: 40px;
+    margin: 10px;
+  }
+
+  .center-box__heading {
+    font-size : 30px;
+    margin: 200px 0 50px 0;
+  }
+
   }
   
 
