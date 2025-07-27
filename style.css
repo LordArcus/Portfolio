@@ -442,7 +442,9 @@
 
 /* CSS for blog post  */
 .analysis_tools {
-  margin: 5rem;
+    margin: 5% 20%;
+    max-width: 100%;
+    word-wrap: break-word;
 }
 
 .analysis_title {
@@ -570,6 +572,11 @@
     font-size : 30px;
     margin: 200px 0 50px 0;
   }
+
+  .analysis_title {
+  margin: 0.6rem;
+  text-align: center;
+}
 
   }
   
