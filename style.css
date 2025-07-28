@@ -114,6 +114,17 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  /* CSS of stick nav bar */
+  .sticky_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--background-body);
+    backdrop-filter: blur(10px);
+    transition: margin 0.3s; /* Smooth margin transition */
+    margin: 20px 0; /* Default larger margin */
+  }
   
   nav img {
     width: 8em;
